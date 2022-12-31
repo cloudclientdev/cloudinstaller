@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <ApplicationIcon>icon.ico</ApplicationIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="background.png" />
+      <None Remove="cloudlogo.png" />
+      <None Remove="cross.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Resource Include="background.png" />
+      <Resource Include="cloudlogo.png" />
+      <Resource Include="cross.png" />
+    </ItemGroup>
+
+</Project>
