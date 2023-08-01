@@ -1,3 +1,5 @@
+This project has now been discontinued and archived. It will no longer recieve updates or fixes.
+
 # Cloud Client Installer
 The Cloud Client Installer is a simple open source programm which can be used if you don't want to go through the hassle of downloading forge mods and installing the forge API
 
